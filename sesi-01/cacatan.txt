@@ -1,0 +1,13 @@
+setelah instalasi : menuju extension di vscode
+- live server
+- Prettier - Code formatter
+- auto rename tag
+- auto close tag
+
+- tugas :
+    - ss instalasi vscode
+    - ss instalasi extension
+    - ss koding
+    - file html (file koding)
+
+https://codeshare.io/batch13a

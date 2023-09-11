@@ -1,0 +1,24 @@
+#garis-1{
+    border-style: solid;
+}
+#garis-2{
+    border-style: dotted;
+}
+#garis-3{
+    border-style: dashed;
+}
+#garis-4{
+    border-style: double;
+}
+#garis-5{
+    border-style: groove;
+}
+#garis-6{
+    border-style: inset;
+}
+#garis-7{
+    border-style: outset;
+}
+#garis-8{
+    border-style: ridge;
+}

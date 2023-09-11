@@ -1,0 +1,29 @@
+body {
+    background: blue;
+    color: white;
+}
+.tls-satu{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-decoration: underline;
+}
+.tls-dua{
+    color: orangered;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: right;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+.tls-dua{
+    color: aqua;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    word-spacing: 10px;
+}

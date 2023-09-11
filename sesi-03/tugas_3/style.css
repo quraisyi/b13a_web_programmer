@@ -1,0 +1,81 @@
+html{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    ;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: #BFDB38;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 6px;
+}
+nav ul li a:hover{
+    background-color: yellowgreen;
+}
+section{
+    margin:20px ;
+}
+form{
+    background-color: greenyellow;
+}
+form input{
+    width: 100%;
+    margin-bottom: 16px;
+}
+form input[type="submit"] {
+    margin: 0;
+    background-color: #38E54D;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+/* css profile */
+#profile{
+    display: flex;
+}
+#satu{
+    display: flex;
+}
+#detail{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.text{
+    line-height: 20px;
+}
+.foto img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: black solid 1px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.action button{
+    background-color:#38E54D;
+    border-radius: 80px;
+    border: black solid 1px;
+    padding: 5px;
+}
+.action button:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+
+
