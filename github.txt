@@ -1,0 +1,12 @@
+echo "# b13a_web_programmer" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/quraisyi/b13a_web_programmer.git
+git push -u origin main
+
+git remote add origin https://github.com/username/repository.git
+git branch -M main
+
+git push -u origin main
