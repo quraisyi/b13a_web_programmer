@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 5</title>
+</head>
+<body>
+    <label>Pesan :</label><input type="text" id="kata"><br>
+    <label>Berapa kali :</label><input type="number" id="nomer"><br>
+    <button type="button" onclick="cetak()">cetak</button>
+    <ol id="output"></ol>
+
+    <script>
+        // const nama_variabel= document.getElementById("nama_variabel")
+        var kata = document.getElementById("kata").value;
+        var nomer = document.getElementById("nomer").value;
+        var id_tamp = document.getElementById("output");
+        var hasil = ''
+
+        function cetak(){
+            for(var i=0;i<=nomer;i++){
+                hasil += (nomer +'<br>')
+                // document.getElementById("output").innerHTML= hasil
+                id_tamp.innerHTML=hasil
+            }
+        }
+    </script>
+</body>
+</html>
