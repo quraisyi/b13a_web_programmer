@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas mandiri</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            text-align: center;
+        }
+        h3,h2,h4 {
+            font-size: 18px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        section {
+            background-color: aqua;
+            border-radius: 10px;
+            padding : 50px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Buat Animation</h1>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum enim omnis quis ipsum natus corporis sit totam deleniti necessitatibus.</h3>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat dolore quam soluta, perferendis harum neque quod deserunt doloribus repellendus? Aperiam.</h2>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, enim architecto. Iusto iste, ipsum similique beatae pariatur quam temporibus aliquam.</h4>
+    </section>
+    <script>
+        document.body.style.backgroundColor = "#E5CFF7";
+         // mengganti warna dengan waktu 2 detik
+        var waktu = setInterval(() => {
+            console.log("update")
+            // cek warna text
+            var h3 = document.getElementsByTagName("h3")[0];
+            var warna = h3.style.color;
+            var h2 = document.getElementsByTagName("h2")[0];
+            var warnaa = h2.style.color;
+            var h4 = document.getElementsByTagName("h4")[0];
+            var warnaaa = h4.style.color;
+            // console.log(warna) menampilkan warna
+            h3.style.color = warna == "red" ? "black" : "red";
+            h2.style.color = warnaa == "green" ? "black" : "green";
+            h4.style.color = warnaaa == "blue" ? "black" : "blue";
+        }, 500);
+
+        // setTimeout(() => {
+        //     clearInterval(waktu);
+        //     document.body.style.backgroundColor = "white";
+        //     var h3 = document.getElementsByTagName("h3")[0];
+        //     h3.style.color = warna == "black";
+        //     var h2 = document.getElementsByTagName("h2")[0];
+        //     h2.style.color = warnaa == "black";
+        //     var h4 = document.getElementsByTagName("h4")[0];
+        //     h4.style.color = warnaaa == "black";
+        // },1000);
+
+    </script>
+</body>
+</html>
