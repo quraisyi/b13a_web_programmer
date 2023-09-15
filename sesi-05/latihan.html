@@ -12,19 +12,16 @@
     <button type="button" onclick="cetak()">cetak</button>
     <ol id="output"></ol>
 
-    <script>
-        // const nama_variabel= document.getElementById("nama_variabel")
-        var kata = document.getElementById("kata").value;
-        var nomer = document.getElementById("nomer").value;
-        var id_tamp = document.getElementById("output");
-        var hasil = ''
-
+    <script>  
         function cetak(){
-            for(var i=0;i<=nomer;i++){
-                hasil += (nomer +'<br>')
-                // document.getElementById("output").innerHTML= hasil
-                id_tamp.innerHTML=hasil
+            var kata = document.getElementById("kata").value;
+            var nomer = document.getElementById("nomer").value;
+            var id_tamp = document.getElementById("output");
+            var hasil = ''
+            for(var i=1;i<=nomer;i++){
+                hasil += ('<li>'+kata+'<br>')
             }
+            id_tamp.innerHTML=hasil
         }
     </script>
 </body>

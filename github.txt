@@ -9,4 +9,25 @@ git push -u origin main
 git remote add origin https://github.com/username/repository.git
 git branch -M main
 
+
+
+
+
+jika sudah ada github 
+
+change credentials
+git config --global user.name ""
+git config --global user.email "@gmail.com"
+git config --global credential.username ""
+
+// yang ini untuk kelanjutan nya
+git add .
+git commit -m "update data"
+git push
+
+repository : b13a_web_programmer
+b13a_web_programmer :
+	> sesi-01 > beserta file/koding nya
+  > sesi-02 > beserta file/koding nya
+  > dst
 git push -u origin main
